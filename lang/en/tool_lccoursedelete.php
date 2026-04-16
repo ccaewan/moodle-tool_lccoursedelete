@@ -30,3 +30,5 @@ $string['inactivitydelay_help'] = 'Courses whose most recent enrolled-user acces
 
 $string['creationdelay']        = 'Course creation delay';
 $string['creationdelay_help']   = 'Courses created more recently than this value will not be considered for deletion, regardless of access history.';
+
+$string['privacy:metadata'] = 'This plugin does not store any personal data.';
