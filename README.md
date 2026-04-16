@@ -7,8 +7,8 @@ A lifecycle trigger that targets frozen (archived) courses for deletion based on
 A course is selected for deletion when **all** of the following are true:
 
 - The course context is **locked** (already archived/frozen)
-- The course was created more than `creationdelay` ago (default: 60 months)
-- The most recent enrolled-user access is older than `inactivitydelay` (default: 48 months), **or** the course has never been accessed at all
+- The course was created more than `creationdelay` ago (default: 60 months / 5 years)
+- The most recent enrolled-user access is older than `inactivitydelay` (default: 48 months / 4 years), **or** the course has never been accessed at all
 
 ## Installation
 
